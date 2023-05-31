@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e7cc82e.css",
+    "main.js": "/static/js/main.f790ca91.js",
+    "static/css/244.fe49596d.chunk.css": "/static/css/244.fe49596d.chunk.css",
+    "static/js/244.11088534.chunk.js": "/static/js/244.11088534.chunk.js",
+    "static/css/257.696f06a9.chunk.css": "/static/css/257.696f06a9.chunk.css",
+    "static/js/257.b2bb79b1.chunk.js": "/static/js/257.b2bb79b1.chunk.js",
+    "static/css/916.e7abf5b2.chunk.css": "/static/css/916.e7abf5b2.chunk.css",
+    "static/js/916.f22d083e.chunk.js": "/static/js/916.f22d083e.chunk.js",
+    "static/css/990.fa3c364f.chunk.css": "/static/css/990.fa3c364f.chunk.css",
+    "static/js/990.b85286f5.chunk.js": "/static/js/990.b85286f5.chunk.js",
+    "static/css/551.180d3293.chunk.css": "/static/css/551.180d3293.chunk.css",
+    "static/js/551.589b9e70.chunk.js": "/static/js/551.589b9e70.chunk.js",
+    "static/js/639.cd6365d4.chunk.js": "/static/js/639.cd6365d4.chunk.js",
+    "index.html": "/index.html",
+    "main.4e7cc82e.css.map": "/static/css/main.4e7cc82e.css.map",
+    "main.f790ca91.js.map": "/static/js/main.f790ca91.js.map",
+    "244.fe49596d.chunk.css.map": "/static/css/244.fe49596d.chunk.css.map",
+    "244.11088534.chunk.js.map": "/static/js/244.11088534.chunk.js.map",
+    "257.696f06a9.chunk.css.map": "/static/css/257.696f06a9.chunk.css.map",
+    "257.b2bb79b1.chunk.js.map": "/static/js/257.b2bb79b1.chunk.js.map",
+    "916.e7abf5b2.chunk.css.map": "/static/css/916.e7abf5b2.chunk.css.map",
+    "916.f22d083e.chunk.js.map": "/static/js/916.f22d083e.chunk.js.map",
+    "990.fa3c364f.chunk.css.map": "/static/css/990.fa3c364f.chunk.css.map",
+    "990.b85286f5.chunk.js.map": "/static/js/990.b85286f5.chunk.js.map",
+    "551.180d3293.chunk.css.map": "/static/css/551.180d3293.chunk.css.map",
+    "551.589b9e70.chunk.js.map": "/static/js/551.589b9e70.chunk.js.map",
+    "639.cd6365d4.chunk.js.map": "/static/js/639.cd6365d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e7cc82e.css",
+    "static/js/main.f790ca91.js"
+  ]
+}
