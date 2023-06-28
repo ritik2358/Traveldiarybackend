@@ -1,12 +1,13 @@
 const jwt = require('jsonwebtoken');
 const HttpError = require("../models/http-error");
+const extractToken = require('../util/extractToken');
 
 module.exports = (req, res, next) => {
     if (req.method === 'OPTIONS') {
         return next();
     }
     try {
-        const token = req.headers.authorization.split(' ')[1]; // Authorization: 'Bearer TOKEN'
+        const token = extractToken(req.headers.authorization); // Authorization: 'Bearer TOKEN'
         if (!token) {
             throw new Error('Authentication failed!');
         }
