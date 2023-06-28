@@ -52,10 +52,9 @@ app.use((error, req, res, next) => {
   res.json({ message: error.message || 'An unknown error occurred!' });
 });
 
+const mongoConnectionString = process.env.NODE_ENV === 'development' ? 'mongodb://traveldiary:traveldiary@localhost:27017' : `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster1.tncoajo.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 mongoose
-  .connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster1.tncoajo.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
-  )
+  .connect(mongoConnectionString)
   .then(() => {
     app.listen(process.env.PORT || 5000);
   })
