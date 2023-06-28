@@ -1,5 +1,8 @@
 const extractToken = require('./extractToken');
 
+/**
+ * this is a unit test since it tests a single pure function that has no external dependencies
+ */
 describe('extractToken', () => {
     test('should return null if provided header value is null', () => {
         const actual = extractToken('');
