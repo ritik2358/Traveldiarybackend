@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "NODE_ENV=development nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
+    "jest": "^29.5.0",
     "nodemon": "^1.19.4"
   },
   "engines": {

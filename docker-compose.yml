@@ -1,0 +1,14 @@
+volumes:
+  data:
+
+services:
+  mongo: 
+    image: mongo:6.0.6
+    ports:
+      - "27017:27017"
+    volumes:
+      - data:/data/db
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: traveldiary
+      MONGO_INITDB_ROOT_PASSWORD: traveldiary
